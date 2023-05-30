@@ -78,7 +78,7 @@ function App() {
     }
   }, [showSuccessPopup]);
   return (
-    <div className="flex flex-col h-screen justify-between gap-20">
+    <div className="flex flex-col justify-between gap-20">
       <header className="sticky top-0">
         <Header />
       </header>
@@ -118,7 +118,7 @@ function App() {
           </div>
         )}
       </div>
-      <footer className="static bottom-0">
+      <footer className="sticky bottom-0">
         <Footer />
       </footer>
     </div>
